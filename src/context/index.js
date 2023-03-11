@@ -25,7 +25,7 @@ const GameProvider = ({children}) => {
         type: 'error',
         position: 'bottom',
         text1: 'Sorry',
-        text2: 'You need at least 2 players'
+        text2: 'You need at least 2'
       });
     }else{
       setStage(2)
